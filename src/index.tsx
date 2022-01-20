@@ -21,10 +21,17 @@ createServer({
         },
         {
           id: 2,
-          title: "Alugel",
+          title: "Aluguel",
           type: "withdraw",
           amount: 1000,
           createdAt: new Date("2021-02-15 11:00:00"),
+        },
+        {
+          id: 3,
+          title: "Venda do computador",
+          type: "deposit",
+          amount: 5000,
+          createdAt: new Date("2021-02-19 11:00:00"),
         },
       ],
     });
